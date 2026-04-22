@@ -527,7 +527,6 @@ GameObject:
   - component: {fileID: 718865953}
   - component: {fileID: 718865957}
   - component: {fileID: 718865958}
-  - component: {fileID: 718865959}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -668,19 +667,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &718865959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 718865951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9a71bc7b52d43b41a9230623c66c49b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 5
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
