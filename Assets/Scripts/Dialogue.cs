@@ -14,6 +14,9 @@ public class Dialogue : MonoBehaviour
     [Header("Typing Settings")]
     public float typingSpeed = 0.03f;
 
+    [Header("Player Movement")]
+    public GameObject Player;
+
     [Header("Dialogue Data")]
     public DialogueLine[] dialogueLines;
 
@@ -48,6 +51,7 @@ public class Dialogue : MonoBehaviour
     {
         index = 0;
         dialogueBox.SetActive(true);
+        Player.GetComponent<PlayerMovement>().isMoveable = false;
         ShowLine();
     }
 
@@ -115,5 +119,6 @@ public class Dialogue : MonoBehaviour
     void EndDialogue()
     {
         dialogueBox.SetActive(false);
+        Player.GetComponent<PlayerMovement>().isMoveable = true;
     }
 }

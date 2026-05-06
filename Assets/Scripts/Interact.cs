@@ -19,7 +19,6 @@ public class Interact : MonoBehaviour
         {
             if (NPC!=null && NPC.tag == "TextNPC" && NPC.GetComponent<Dialogue>().dialogueBox.activeSelf == false)
             {
-                
                 NPC.GetComponent<Dialogue>().StartDialogue();
             }
         }
