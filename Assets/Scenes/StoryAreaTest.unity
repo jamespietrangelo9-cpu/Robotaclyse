@@ -378,6 +378,7 @@ GameObject:
   - component: {fileID: 365290877}
   - component: {fileID: 365290876}
   - component: {fileID: 365290875}
+  - component: {fileID: 365290878}
   m_Layer: 0
   m_Name: Ground (2)
   m_TagString: Untagged
@@ -395,7 +396,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.81, y: 3.38, z: 9.1}
-  m_LocalScale: {x: 13.4452, y: 1, z: 42.814003}
+  m_LocalScale: {x: 14, y: 1, z: 42.814003}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1364198495}
@@ -446,7 +447,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 72419fdc4c4783047bf96d006a0fa057, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -478,6 +479,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365290873}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &365290878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365290873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc575a88079d804c8cdf69173566978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialAutoTile
+  tileSize: 1
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,6 +919,7 @@ GameObject:
   - component: {fileID: 735626928}
   - component: {fileID: 735626927}
   - component: {fileID: 735626926}
+  - component: {fileID: 735626929}
   m_Layer: 0
   m_Name: Slope
   m_TagString: Untagged
@@ -973,7 +988,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 72419fdc4c4783047bf96d006a0fa057, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1005,6 +1020,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735626924}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &735626929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735626924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc575a88079d804c8cdf69173566978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialAutoTile
+  tileSize: 1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1765,6 +1793,7 @@ GameObject:
   - component: {fileID: 1387699836}
   - component: {fileID: 1387699835}
   - component: {fileID: 1387699834}
+  - component: {fileID: 1387699838}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -1865,6 +1894,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1364198495}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1387699838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387699833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc575a88079d804c8cdf69173566978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialAutoTile
+  tileSize: 1
 --- !u!1 &1429943418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +2143,7 @@ GameObject:
   - component: {fileID: 1636058817}
   - component: {fileID: 1636058816}
   - component: {fileID: 1636058815}
+  - component: {fileID: 1636058818}
   m_Layer: 0
   m_Name: Ground (1)
   m_TagString: Untagged
@@ -2169,7 +2212,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 72419fdc4c4783047bf96d006a0fa057, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2201,6 +2244,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1636058813}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1636058818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1636058813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc575a88079d804c8cdf69173566978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MaterialAutoTile
+  tileSize: 1
 --- !u!1 &1696455147
 GameObject:
   m_ObjectHideFlags: 0
