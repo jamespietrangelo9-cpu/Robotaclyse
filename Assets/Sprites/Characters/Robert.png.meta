@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 78
-        y: 18
-        width: 444
-        height: 584
+        y: 0
+        width: 505
+        height: 640
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ef446c384d82754f95acfe63e546ec4
-      internalID: -820035088
+      spriteID: 179e5c2492c42bd4abf46dbaf7d453fa
+      internalID: -415546407
       vertices: []
       indices: 
       edges: []
@@ -122,10 +122,10 @@ TextureImporter:
       name: Robert_1
       rect:
         serializedVersion: 2
-        x: 718
-        y: 18
-        width: 464
-        height: 563
+        x: 716
+        y: 0
+        width: 505
+        height: 640
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26730d1acbefd1f4db16d00f38344eff
-      internalID: -1351518316
+      spriteID: 400974e00dabf0e4ea84cd9eb72f1d67
+      internalID: -1753409399
       vertices: []
       indices: 
       edges: []
@@ -145,9 +145,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1338
-        y: 18
-        width: 503
-        height: 584
+        y: 0
+        width: 505
+        height: 640
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,8 +156,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0f0b7bbecc5fea48994c23481525561
-      internalID: 625768777
+      spriteID: 948689c234d693147b8fe9f62b065b81
+      internalID: 1210084231
       vertices: []
       indices: 
       edges: []
@@ -166,10 +166,10 @@ TextureImporter:
       name: Robert_3
       rect:
         serializedVersion: 2
-        x: 1998
-        y: 18
-        width: 464
-        height: 563
+        x: 1997
+        y: 0
+        width: 505
+        height: 640
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8649448238cd0b9499ca543a70822800
-      internalID: -610569127
+      spriteID: b2fd724e22f1d4048aecc600876179e5
+      internalID: 2040626677
       vertices: []
       indices: 
       edges: []
@@ -188,10 +188,10 @@ TextureImporter:
       name: Robert_4
       rect:
         serializedVersion: 2
-        x: 2638
-        y: 18
-        width: 444
-        height: 584
+        x: 2637
+        y: 0
+        width: 505
+        height: 640
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +200,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f5ce5937b2f2f49b775f0f2e239a95
-      internalID: -1802360466
+      spriteID: 7ff734e39857059498661c695d649fcc
+      internalID: 2129965474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robert_5
+      rect:
+        serializedVersion: 2
+        x: 3278
+        y: 0
+        width: 505
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ebb34308b0c14dadc52a042107757
+      internalID: -807424212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Robert_6
+      rect:
+        serializedVersion: 2
+        x: 3917
+        y: 0
+        width: 505
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66607f49937480245b382ea3a8adc63c
+      internalID: -1862037236
       vertices: []
       indices: 
       edges: []
@@ -210,7 +254,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 879f24b1cde999f41af7ca8b05d92174
+    spriteID: 5965601f8d7793942b499edf270d48e0
     internalID: 0
     vertices: []
     indices: 
@@ -222,11 +266,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Robert_0: -820035088
-      Robert_1: -1351518316
-      Robert_2: 625768777
-      Robert_3: -610569127
-      Robert_4: -1802360466
+      Robert_0: -415546407
+      Robert_1: -1753409399
+      Robert_2: 1210084231
+      Robert_3: 2040626677
+      Robert_4: 2129965474
+      Robert_5: -807424212
+      Robert_6: -1862037236
+      Robert_7: 845676120
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
