@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 520291504}
   - component: {fileID: 520291505}
   m_Layer: 0
-  m_Name: WhimsyMan
+  m_Name: Whimsy Man
   m_TagString: TextNPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2299,7 +2299,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 510, y: 450}
+  m_AnchoredPosition: {x: 510, y: 400}
   m_SizeDelta: {x: 700, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1640522471
