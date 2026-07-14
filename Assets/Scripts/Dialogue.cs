@@ -14,7 +14,7 @@ public class Dialogue : MonoBehaviour
     [Header("Typing Settings")]
     public float typingSpeed = 0.03f;
 
-    [Header("Player Movement")]
+    [Header("Player")]
     public GameObject Player;
 
     [Header("Dialogue Data")]
@@ -22,6 +22,7 @@ public class Dialogue : MonoBehaviour
 
     private int index = 0;
     private Coroutine typingCoroutine;
+    private bool isTalking = false;
 
     [System.Serializable]
     public class DialogueLine
@@ -41,6 +42,9 @@ public class Dialogue : MonoBehaviour
 
     void Update()
     {
+    if (!isTalking)
+            return;
+
         if (Input.GetKeyUp(KeyCode.Space))
         {
             NextDialogue();
@@ -49,6 +53,7 @@ public class Dialogue : MonoBehaviour
 
     public void StartDialogue()
     {
+        isTalking = true;
         index = 0;
         dialogueBox.SetActive(true);
         Player.GetComponent<PlayerMovement>().isMoveable = false;
@@ -118,6 +123,7 @@ public class Dialogue : MonoBehaviour
 
     void EndDialogue()
     {
+        isTalking = false;
         dialogueBox.SetActive(false);
         Player.GetComponent<PlayerMovement>().isMoveable = true;
     }
