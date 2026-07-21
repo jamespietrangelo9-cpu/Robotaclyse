@@ -2508,7 +2508,7 @@ GameObject:
   - component: {fileID: 1891628903}
   - component: {fileID: 1891628902}
   m_Layer: 0
-  m_Name: haha
+  m_Name: FatMage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2552,7 +2552,7 @@ Animator:
   m_GameObject: {fileID: 1891628900}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a58d92a1c5639724cb8120c773df7169, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6611e75a272fc044383695746b9763c8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2573,7 +2573,7 @@ Animation:
   m_GameObject: {fileID: 1891628900}
   m_Enabled: 1
   serializedVersion: 4
-  m_Animation: {fileID: 7400000, guid: daf6a6cf3da7c9b459eccfa85411570d, type: 2}
+  m_Animation: {fileID: 7400000, guid: fa297a7e5153cc448a92e91fb6f11891, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
@@ -2629,7 +2629,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -1767908133, guid: 17a8373ac483945418b67d165258697b, type: 3}
+  m_Sprite: {fileID: -1419792123, guid: 30f223db5a544d844a0c0a9c64855c44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2652,7 +2652,7 @@ GameObject:
   - component: {fileID: 2113633947}
   - component: {fileID: 2113633946}
   m_Layer: 0
-  m_Name: haha
+  m_Name: FatMage
   m_TagString: TextNPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2677,21 +2677,18 @@ MonoBehaviour:
   typingSpeed: 0.03
   Player: {fileID: 998074454}
   dialogueLines:
-  - speakerName: Whimsy Man
-    dialogue: heheheheheheha test
-    speakerSprite: {fileID: -1767908133, guid: 17a8373ac483945418b67d165258697b, type: 3}
-  - speakerName: Whimsy Man
-    dialogue: omg it workeded
-    speakerSprite: {fileID: -1767908133, guid: 17a8373ac483945418b67d165258697b, type: 3}
-  - speakerName: Whimsy Man
-    dialogue: Ima kill you now!
-    speakerSprite: {fileID: -1767908133, guid: 17a8373ac483945418b67d165258697b, type: 3}
+  - speakerName: Fat Mage
+    dialogue: Oooooooh, I'm SO fat!
+    speakerSprite: {fileID: -1419792123, guid: 30f223db5a544d844a0c0a9c64855c44, type: 3}
   - speakerName: You
-    dialogue: NOOOOOOOOOO!
+    dialogue: That sucks bro.
     speakerSprite: {fileID: -415546407, guid: de45163bfc33c7b4a851eb1bc20f072a, type: 3}
-  - speakerName: Whimsy Man
-    dialogue: Jk
-    speakerSprite: {fileID: -1767908133, guid: 17a8373ac483945418b67d165258697b, type: 3}
+  - speakerName: Fat Mage
+    dialogue: I'm SO round, too.
+    speakerSprite: {fileID: -1419792123, guid: 30f223db5a544d844a0c0a9c64855c44, type: 3}
+  - speakerName: You
+    dialogue: Listen bro, I don't care.
+    speakerSprite: {fileID: -415546407, guid: de45163bfc33c7b4a851eb1bc20f072a, type: 3}
 --- !u!54 &2113633947
 Rigidbody:
   m_ObjectHideFlags: 0
